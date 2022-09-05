@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Details Display in Table</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div id="container">
+        
+        <div  class="input">Name: <input id="name" type="text"
+            placeholder="Arup Mondal"></div>
+        <div  class="input" id="dept">
+            <label for="dept">Dept: </label>
+            <select name="select" id="s1" >
+                <option value=""> --Choose Dept-- </option>
+                <option value="CS">CS</option>
+                <option value="EE">EE</option>
+                <option value="ME">ME</option>
+                <option value="TT">TT</option>
+            </select>
+            </div>
+        <div class="input">Email: <input id="email" type="text"
+                    placeholder="abc@gmail.com"></div>
+
+        <button id="entry">Input Entry</button>    
+
+    </div>
+    <table id="display">
+        <tr>
+            <th>Name</th>
+            <th>Dept</th>
+            <th>Email</th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
